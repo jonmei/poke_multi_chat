@@ -1,0 +1,49 @@
+.city-selection {
+  display: none;
+  background: rgba(0,0,0,0.5);
+  padding: 50px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+}
+
+@media(max-width: 480px) {
+  .city-selection {
+    left: 0;
+    transform: translate(0, -50%);
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.city-selection button {
+  width: 100%;
+  color: #0d0d0d;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  background: #f4f4f4;
+}
+.city-selection button:hover {
+  background: #cacaca;
+  color: #000000;
+}
+.city-selection p, .city-selection h1 {
+  color: #fff;
+}
+.city-selection a {
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 5px;
+}
+.city-selection input {
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+}
+.city-selection label {
+  color: #fff;
+}

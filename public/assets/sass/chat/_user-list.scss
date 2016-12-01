@@ -1,0 +1,19 @@
+.chat-user-wrapper {
+  padding: 10px;
+  margin: 10px 0;
+  background: rgba(0,0,0,0.5);
+}
+.block-header {
+  color: #aeaeae;
+  padding-bottom: 5px;
+}
+#chat-user-list {
+  max-height: 515px;
+}
+#chat-user-list .mCustomScrollBox {
+  height: auto;
+}
+.user-list-item {
+  color: #d1d1d1;
+  display: block;
+}

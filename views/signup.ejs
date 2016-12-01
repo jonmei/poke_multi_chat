@@ -1,0 +1,26 @@
+<h1><span class="fa fa-sign-in"></span>Registracija</h1>
+
+<!-- show any messages that come back with authentication -->
+<% if (message.length > 0) { %>
+<div class="alert alert-danger"><%= message %></div>
+<% } %>
+
+<!-- LOGIN FORM -->
+<form id="signupIn" action="/signup" method="post">
+    <div class="form-group">
+        <label>El. paštas</label>
+        <input type="text" class="form-control" name="email">
+    </div>
+    <div class="form-group">
+        <label>Slaptažodis</label>
+        <input type="password" class="form-control" name="password">
+    </div>
+
+    <button type="submit" class="btn btn-warning btn-lg">Regitruotis</button>
+</form>
+
+<hr>
+
+<p>Esate užsiregistravęs? <a id="login" href="/login">Prisijungti</a></p>
+<p>Arba <a id="home" href="/form">grįžti</a>.</p>
+

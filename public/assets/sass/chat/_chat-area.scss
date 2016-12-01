@@ -1,0 +1,82 @@
+#room {
+  background: rgba(0,0,0,0.75);
+}
+/* Sending form */
+form.send {
+  padding: 14px;
+  width: 100%;
+  display: inline-block;
+}
+
+form.send input {
+  border: 0;
+  padding: 10px;
+  width: 90%;
+  margin-right: .5%;
+}
+
+form.send .chat-send {
+  background-color: green;
+  border-color: green;
+  color: #fff;
+}
+.send .input-group-addon {
+  border-radius: 0;
+}
+/* Chat messages */
+#messages {
+  padding-top: 10px;
+  list-style-type: none;
+}
+.chat-msg-wrapper {
+  padding: 5px 35px 5px 10px;
+  color: #fff;
+  position: relative;
+}
+.chat-msg-wrapper img {
+  opacity: 0.8;
+}
+.msg-time {
+  font-size: 11px;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: #7d7d7d;
+}
+@media(max-width: 480px)  {
+  .chat-msg-wrapper img {
+    max-width: 100%;
+  }
+}
+
+.chat-msg-wrapper:nth-child(odd) {
+  color: #000;
+  background: rgba(238,238,238,0.8);
+}
+.chat-usr {
+  font-weight: 600;
+}
+.colon {
+  padding: 0 5px;
+}
+.chat-typing-wrapper {
+  color: #fff;
+  padding: 5px 10px;
+}
+.chat-typing-wrapper {
+  display: block;
+}
+.chat-error-msg {
+  color: red;
+  display: block;
+  padding: 10px;
+}
+.chat-ban-notification {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  background-color: rgba(0,0,0,0.7);
+  padding: 100px 150px;
+  margin-top: 150px;
+}

@@ -1,0 +1,17 @@
+.chat-select-room {
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid #fff;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  font-size: 1.5em;
+}
+label input:checked + .chat-select-room {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+#third + .chat-select-room {
+  font-size: 1em;
+  line-height: 30px;
+}
